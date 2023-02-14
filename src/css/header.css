@@ -1,0 +1,94 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/MullerRegular.otf);
+}
+
+@font-face {
+  font-family: 'mainBold';
+  src: url(../fonts/MullerBold.otf);
+}
+
+@font-face {
+  font-family: 'decorative';
+  src: url(../fonts/IntroRustG-Base.otf);
+}
+
+/* line 4, ../../Projects/SibMoto/src/sass/header.sass */
+.header {
+  height: 80px;
+  background-color: #232020;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 100%;
+}
+
+/* line 11, ../../Projects/SibMoto/src/sass/header.sass */
+.header__logo {
+  padding: 15px 35px;
+  max-height: 60px;
+}
+
+/* line 14, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* line 18, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav__a {
+  text-decoration: none;
+  font-family: 'main';
+  font-size: 14px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  margin-right: 32px;
+}
+
+/* line 25, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav__a:last-child {
+  padding-right: 36px;
+}
+
+/* line 27, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav__a:hover {
+  color: #FFCB03;
+  text-decoration: none;
+  border-top: 5px solid #FFCB03;
+  height: 46px;
+  padding-top: 29px;
+}
+
+/* line 33, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav__button {
+  height: 46px;
+  width: fit-content;
+  padding: 0px 30px;
+  background-color: #FFCB03;
+  color: #000000;
+  border-radius: 30px;
+  border: none;
+  font-family: 'main';
+  text-transform: uppercase;
+  transition: all;
+  transition-duration: 0.5s;
+  margin-right: 35px;
+}
+
+/* line 36, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav__button:hover {
+  background-color: #C17D17;
+  color: #FFFFFF;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+@media screen and (max-width: 1168px) {
+  /* line 44, ../../Projects/SibMoto/src/sass/header.sass */
+  .header__nav__a {
+    font-size: 0.65rem;
+  }
+}
+
+/*# sourceMappingURL=header.css.map */

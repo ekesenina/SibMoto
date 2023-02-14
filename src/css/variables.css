@@ -1,0 +1,16 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/MullerRegular.otf);
+}
+
+@font-face {
+  font-family: 'mainBold';
+  src: url(../fonts/MullerBold.otf);
+}
+
+@font-face {
+  font-family: 'decorative';
+  src: url(../fonts/IntroRustG-Base.otf);
+}
+
+/*# sourceMappingURL=variables.css.map */

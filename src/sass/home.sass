@@ -1,0 +1,59 @@
+@import 'variables'
+
+
+.main
+    &__slider
+        position: relative
+        max-width: 100%
+        min-width: 100%
+        max-height: calc( 100vh - 80px )
+        display: flex
+        justify-content: center
+        align-items: center
+        margin-bottom: 90px
+        &__text
+            position: absolute
+            display: flex
+            flex-direction: column
+            justify-content: space-around
+            align-items: center
+            max-height: 500px
+            min-height: 400px
+            &__h2
+                font-family: 'mainBold'
+                font-size: 40px
+                color: #fff
+                position: relative
+                display: flex
+                flex-direction: column
+                align-items: center
+                &__underline
+                    @include underline
+            &__h1
+                font-family: 'decorative'
+                font-size: 70px
+                color: #ffffff
+                position: relative
+                // padding-top: 180px
+            &__button
+                @include button
+                &:hover
+                    @include button__hover
+    &__sales
+        max-height: 100vh
+        min-width: 100%
+        display: flex
+        flex-direction: column
+        align-items: center
+        &__h1
+            font-family: 'mainBold'
+            font-size: 40px
+            display: flex
+            flex-direction: column
+            align-items: center
+            &__underline
+                @include underline
+        &__content
+            height: 300px
+
+
