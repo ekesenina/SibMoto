@@ -1,0 +1,46 @@
+@import 'variables'
+
+.footer
+    height: 150px
+    background-color: $secondary-color
+    display: flex
+    align-items: center
+    justify-content: center
+    &__contacts
+        width: 100vw
+        height: -webkit-fill-available
+        font-family: 'mainUltraLight'
+        font-size: 19px
+        justify-content: space-between
+        align-items: center
+        display: flex
+        color: #bebebe
+        padding: 10px 50px
+        &__adress,
+        &__phones
+            display: flex
+            flex-direction: column
+            justify-content: space-between
+            &__item
+                margin-bottom: 10px
+                &__bold
+                    font-family: "mainBold"
+        &__adress
+            &__item
+                &__copyright
+                    margin-top: 20px
+                    font-size: 16px
+                &__a
+                    text-decoration: none
+                    color: #bebebe
+                    &:hover
+                        color: $main-color
+        &__phones
+            &__item
+                display: flex
+                &__a
+                    text-decoration: none
+                    color: #bebebe
+                    &:hover
+                        color: $main-color
+                

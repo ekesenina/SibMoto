@@ -7,8 +7,16 @@
     src: url(../fonts/MullerBold.otf)
 
 @font-face
+    font-family: 'mainExtraBold'
+    src: url(../fonts/MullerExtraBold.otf)
+
+@font-face
     font-family: 'mainLight'
     src: url(../fonts/MullerLight.otf)
+
+@font-face
+    font-family: 'mainUltraLight'
+    src: url(../fonts/MullerUltraLight.otf)
 
 @font-face
     font-family: 'decorative'
@@ -39,6 +47,7 @@ $secondary-color: #232020
 @mixin button__hover
     background-color: #C17D17
     color: #FFFFFF
+    box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25)
     @include transition
 
 @mixin underline

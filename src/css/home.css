@@ -9,8 +9,18 @@
 }
 
 @font-face {
+  font-family: 'mainExtraBold';
+  src: url(../fonts/MullerExtraBold.otf);
+}
+
+@font-face {
   font-family: 'mainLight';
   src: url(../fonts/MullerLight.otf);
+}
+
+@font-face {
+  font-family: 'mainUltraLight';
+  src: url(../fonts/MullerUltraLight.otf);
 }
 
 @font-face {
@@ -86,6 +96,7 @@
 .main__slider__text__button:hover {
   background-color: #C17D17;
   color: #FFFFFF;
+  box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25);
   transition: all;
   transition-duration: 0.5s;
 }
@@ -93,13 +104,13 @@
 /* line 42, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales {
   max-height: 100vh;
-  min-width: 100%;
+  min-width: calc( 100vw - 100px);
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-/* line 48, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 49, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__h1 {
   font-family: 'mainBold';
   font-size: 40px;
@@ -108,7 +119,7 @@
   align-items: center;
 }
 
-/* line 54, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 55, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__h1__underline {
   border-bottom: 3px solid #FFCB03;
   width: 80px;
@@ -116,35 +127,38 @@
   margin-bottom: 55px;
 }
 
-/* line 57, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 58, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content {
   display: flex;
-  width: 100%;
-  flex-direction: row;
+  max-width: calc( 100vw - 100px);
+  min-width: calc( 100vw - 100px);
   justify-content: space-around;
   margin-bottom: 80px;
 }
 
-/* line 63, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 65, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content__sale1, .main__sales__content__sale2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  max-width: 470px;
+  min-zoom: 2;
 }
 
-/* line 67, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 71, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content__sale1__img, .main__sales__content__sale2__img {
   margin-bottom: 20px;
+  max-width: 470px;
 }
 
-/* line 69, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 74, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content__sale1__h3, .main__sales__content__sale2__h3 {
   font-family: 'mainBold';
   font-size: 30px;
   margin-bottom: 10px;
 }
 
-/* line 73, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 78, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content__sale1__p, .main__sales__content__sale2__p {
   font-family: 'mainLight';
   font-size: 16px;
@@ -154,7 +168,7 @@
   margin-bottom: 15px;
 }
 
-/* line 80, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 85, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content__sale1__button, .main__sales__content__sale2__button {
   height: 46px;
   width: fit-content;
@@ -169,28 +183,32 @@
   transition-duration: 0.5s;
 }
 
-/* line 82, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 87, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__content__sale1__button:hover, .main__sales__content__sale2__button:hover {
   background-color: #C17D17;
   color: #FFFFFF;
+  box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25);
   transition: all;
   transition-duration: 0.5s;
 }
 
-/* line 84, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 89, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__credit {
   width: calc( 100vw - 500px);
-  height: 180px;
-  background-color: #FFCB03;
-  border-radius: 75px;
+  max-height: 180px;
+  min-width: fit-content;
+  max-width: 800px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  border-radius: 10px;
   margin-bottom: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
-  box-shadow: inset 8px 8px 7px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0px 14px 24px -10px rgba(0, 0, 0, 0.25), inset 0px -14px 24px -10px rgba(0, 0, 0, 0.25);
 }
 
-/* line 94, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 102, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__credit__content {
   display: flex;
   align-items: center;
@@ -198,7 +216,7 @@
   width: 100%;
 }
 
-/* line 102, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 110, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__credit__content__text__h3 {
   font-family: 'mainLight';
   font-size: 32px;
@@ -208,12 +226,229 @@
   margin-bottom: 15px;
 }
 
-/* line 109, ../../Projects/SibMoto/src/sass/home.sass */
+/* line 117, ../../Projects/SibMoto/src/sass/home.sass */
 .main__sales__credit__content__text__p {
   font-family: 'main';
   font-size: 24px;
   text-align: center;
   color: #000000a3;
+}
+
+/* line 122, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #232020;
+  box-shadow: inset 0px -17px 34px rgba(0, 0, 0, 0.47), inset 0px 17px 34px rgba(0, 0, 0, 0.47);
+}
+
+/* line 132, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: calc( 100vw - 100px);
+}
+
+/* line 138, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__img {
+  max-width: 550px;
+  min-width: 300px;
+}
+
+/* line 141, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  align-self: flex-start;
+  margin-left: 50px;
+}
+
+/* line 147, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__text__h2 {
+  color: #FFCB03;
+  font-family: 'mainBold';
+  font-size: 64px;
+  margin-bottom: 100px;
+}
+
+/* line 152, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__text__h2__underline {
+  border-bottom: 3px solid #FFCB03;
+  width: 80px;
+  padding-top: 16px;
+}
+
+/* line 154, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__text__p {
+  max-width: 525px;
+  min-width: 300px;
+  font-family: 'mainUltraLight';
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 70px;
+}
+
+/* line 161, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__text__button {
+  align-self: flex-end;
+  height: 46px;
+  width: fit-content;
+  padding: 0px 30px;
+  background-color: #FFCB03;
+  color: #000000;
+  border-radius: 30px;
+  border: none;
+  font-family: 'main';
+  text-transform: uppercase;
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+/* line 164, ../../Projects/SibMoto/src/sass/home.sass */
+.main__stels__content__text__button:hover {
+  background-color: #C17D17;
+  color: #FFFFFF;
+  box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25);
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+/* line 166, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic {
+  height: 100vh;
+  min-height: 100vh;
+  width: 100%;
+  min-width: 100%;
+  display: block;
+  max-width: calc( 100vw - 100px);
+}
+
+/* line 173, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  margin: 0px 100px;
+  max-height: 100vh;
+}
+
+/* line 178, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 440px;
+  min-width: 300px;
+  margin: 50px 0px;
+}
+
+/* line 185, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text__h2 {
+  font-family: 'mainExtraBold';
+  font-size: 40px;
+  line-height: 125.5%;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  margin-bottom: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 195, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text__h2__underline {
+  border-bottom: 3px solid #FFCB03;
+  width: 80px;
+  padding-top: 16px;
+}
+
+/* line 197, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text__paragraph {
+  display: block;
+}
+
+/* line 199, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text__paragraph__p {
+  font-family: 'mainLight';
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* line 204, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text__paragraph__p__button {
+  height: 46px;
+  width: fit-content;
+  padding: 0px 30px;
+  background-color: #FFCB03;
+  color: #000000;
+  border-radius: 30px;
+  border: none;
+  font-family: 'main';
+  text-transform: uppercase;
+  transition: all;
+  transition-duration: 0.5s;
+  align-self: center;
+}
+
+/* line 207, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__text__paragraph__p__button:hover {
+  background-color: #C17D17;
+  color: #FFFFFF;
+  box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25);
+  transition: all;
+  transition-duration: 0.5s;
+}
+
+/* line 209, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__img {
+  max-height: 100vh;
+  display: grid;
+  grid-template-columns: 24% 19% 11% 45%;
+  grid-template-rows: 4% 9% 30% 4% 0% 10%;
+  grid-template-areas: ". . b b" ". . b b" "a a b b" "a a . d" "a a . d" ". . . d" "c c c d";
+}
+
+/* line 215, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__img__img1 {
+  max-width: 90%;
+  grid-area: a;
+  justify-self: start;
+  align-self: start;
+  width: -webkit-fill-available;
+}
+
+/* line 221, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__img__img2 {
+  max-width: 90%;
+  grid-area: b;
+  justify-self: start;
+  align-self: end;
+  width: -webkit-fill-available;
+}
+
+/* line 227, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__img__img3 {
+  max-width: 90%;
+  grid-area: c;
+  justify-self: start;
+  align-self: start;
+  width: -webkit-fill-available;
+}
+
+/* line 233, ../../Projects/SibMoto/src/sass/home.sass */
+.main__technic__content__img__img4 {
+  max-width: 90%;
+  grid-area: d;
+  justify-self: end;
+  width: -webkit-fill-available;
+  align-self: start;
 }
 
 /*# sourceMappingURL=home.css.map */

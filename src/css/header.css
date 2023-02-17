@@ -9,8 +9,18 @@
 }
 
 @font-face {
+  font-family: 'mainExtraBold';
+  src: url(../fonts/MullerExtraBold.otf);
+}
+
+@font-face {
   font-family: 'mainLight';
   src: url(../fonts/MullerLight.otf);
+}
+
+@font-face {
+  font-family: 'mainUltraLight';
+  src: url(../fonts/MullerUltraLight.otf);
 }
 
 @font-face {
@@ -85,6 +95,7 @@
 .header__nav__button:hover {
   background-color: #C17D17;
   color: #FFFFFF;
+  box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25);
   transition: all;
   transition-duration: 0.5s;
 }

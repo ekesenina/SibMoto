@@ -1,7 +1,12 @@
 import Slider from "./slider";
 import Sale1 from '../img/sale1.png';
 import Sale2 from '../img/sale2.png';
-import Like_icon from '../img/like_icon.svg'
+import Like_icon from '../img/like_icon.svg';
+import STELS from '../img/stels__img.svg';
+import Technic1 from '../img/technic1.png';
+import Technic3 from '../img/technic2.png';
+import Technic2 from '../img/technic3.png';
+import Technic4 from '../img/technic4.png';
 
 function Home(props) {
     return (
@@ -46,6 +51,37 @@ function Home(props) {
                         </div>
                     </div>
                 </div>
+                <div className="main__stels">
+                        <div className="main__stels__content">
+                            <img src={STELS} alt="img" className="main__stels__content__img" />
+                            <div className="main__stels__content__text">
+                                <h2 className="main__stels__content__text__h2">КОМПАНИЯ STELS
+                                    <div className="main__stels__content__text__h2__underline"></div>
+                                </h2>
+                                <p className="main__stels__content__text__p">Российский бренд, принадлежащий холдингу «Веломоторс», производит квадроциклы, вездеходы и снегоходы с 2009 года. Убедитесь в качестве одной из лучших компаний в стране по производству мототехники!</p>
+                                <button className="main__stels__content__text__button">перейти в каталог</button>
+                            </div>
+                        </div>
+                    </div>
+                    <div className="main__technic">
+                        <div className="main__technic__content">
+                            <div className="main__technic__content__text">
+                                <h2 className="main__technic__content__text__h2">Квадроциклы, снегоходы, вездеходы и аксессуары
+                                    <div className="main__technic__content__text__h2__underline"></div>
+                                </h2>
+                                <div className="main__technic__content__text__paragraph__p">
+                                    <p className="main__technic__content__text__paragraph__p">Прекрасная мототехника для любой погоды и местности.</p>
+                                    <button className="main__technic__content__text__paragraph__p__button">перейти в каталог</button>
+                                </div>
+                            </div>
+                            <div className="main__technic__content__img">
+                                <img src={Technic1} alt="img" className="main__technic__content__img__img1" />
+                                <img src={Technic2} alt="img" className="main__technic__content__img__img2" />
+                                <img src={Technic3} alt="img" className="main__technic__content__img__img3" />
+                                <img src={Technic4} alt="img" className="main__technic__content__img__img4" />
+                            </div>
+                        </div>
+                    </div>
             </main>
         </>
     );

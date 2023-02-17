@@ -41,10 +41,11 @@
                     @include button__hover
     &__sales
         max-height: 100vh
-        min-width: 100%
+        min-width: calc( 100vw - 100px )
         display: flex
         flex-direction: column
         align-items: center
+        // padding: 0px 50px
         &__h1
             font-family: 'mainBold'
             font-size: 40px
@@ -56,16 +57,20 @@
                 margin-bottom: 55px
         &__content
             display: flex
-            width: 100%
-            flex-direction: row
+            max-width: calc( 100vw - 100px )
+            min-width: calc( 100vw - 100px )
+            // flex-direction: row
             justify-content: space-around
             margin-bottom: 80px
             &__sale1, &__sale2
                 display: flex
                 flex-direction: column
                 align-items: center
+                max-width: 470px
+                min-zoom: 2
                 &__img
                     margin-bottom: 20px
+                    max-width: 470px
                 &__h3
                     font-family: 'mainBold'
                     font-size: 30px
@@ -83,14 +88,17 @@
                         @include button__hover
         &__credit
             width: calc( 100vw - 500px )
-            height: 180px
-            background-color: $main-color
-            border-radius: 75px
+            max-height: 180px
+            min-width: fit-content
+            max-width: 800px
+            padding: 10px 20px
+            background-color: #ffffff
+            border-radius: 10px
             margin-bottom: 10px
             display: flex
             align-items: center
             justify-content: center
-            box-shadow: inset 8px 8px 7px rgba(0, 0, 0, 0.25)
+            box-shadow: inset 0px 14px 24px -10px rgba(0, 0, 0, 0.25), inset 0px -14px 24px -10px rgba(0, 0, 0, 0.25)
             &__content
                 display: flex
                 align-items: center
@@ -111,6 +119,126 @@
                         font-size: 24px
                         text-align: center
                         color: #000000a3
+    &__stels
+        height: 100vh
+        min-height: 100vh
+        width: 100%
+        min-width: 100%
+        display: flex
+        justify-content: center
+        align-items: center
+        background-color: $secondary-color
+        box-shadow: inset 0px -17px 34px rgba(0, 0, 0, 0.47), inset 0px 17px 34px rgba(0, 0, 0, 0.47)
+        &__content
+            // margin: 0px 100px
+            display: flex
+            justify-content: space-between
+            align-items: center
+            max-width: calc( 100vw - 100px )
+            &__img
+                max-width: 550px
+                min-width: 300px
+            &__text
+                display: flex
+                flex-direction: column
+                align-items: flex-start
+                align-self: flex-start
+                margin-left: 50px
+                &__h2
+                    color: $main-color
+                    font-family: 'mainBold'
+                    font-size: 64px
+                    margin-bottom: 100px
+                    &__underline
+                        @include underline
+                &__p
+                    max-width: 525px
+                    min-width: 300px
+                    font-family: 'mainUltraLight'
+                    font-size: 24px
+                    color: #fff
+                    margin-bottom: 70px
+                &__button
+                    align-self: flex-end
+                    @include button
+                    &:hover
+                        @include button__hover
+    &__technic
+        height: 100vh
+        min-height: 100vh
+        width: 100%
+        min-width: 100%
+        display: block
+        max-width: calc( 100vw - 100px )
+        &__content
+            display: grid
+            grid-template-columns: 40% 60%
+            margin: 0px 100px
+            max-height: 100vh
+            &__text
+                display: flex
+                flex-direction: column
+                justify-content: center
+                width: 440px
+                min-width: 300px
+                margin: 50px 0px
+                &__h2
+                    font-family: 'mainExtraBold'
+                    font-size: 40px
+                    line-height: 125.5%
+                    letter-spacing: 0.08em
+                    text-transform: uppercase
+                    margin-bottom: 80px
+                    display: flex
+                    flex-direction: column
+                    align-items: center
+                    &__underline
+                        @include underline
+                &__paragraph
+                    display: block
+                    &__p
+                        font-family: 'mainLight'
+                        font-size: 28px
+                        text-align: center
+                        margin-bottom: 30px
+                        &__button
+                            @include button
+                            align-self: center
+                            &:hover
+                                @include button__hover
+            &__img
+                max-height: 100vh
+                display: grid
+                grid-template-columns: 24% 19% 11% 45%
+                grid-template-rows: 4% 9% 30% 4% 0% 10%
+                grid-template-areas: ". . b b" ". . b b" "a a b b" "a a . d" "a a . d" ". . . d" "c c c d"
+                &__img1
+                    max-width: 90%
+                    grid-area: a
+                    justify-self: start
+                    align-self: start
+                    width: -webkit-fill-available
+                &__img2
+                    max-width: 90%
+                    grid-area: b
+                    justify-self: start
+                    align-self: end
+                    width: -webkit-fill-available
+                &__img3
+                    max-width: 90%
+                    grid-area: c
+                    justify-self: start
+                    align-self: start
+                    width: -webkit-fill-available
+                &__img4
+                    max-width: 90%
+                    grid-area: d
+                    justify-self: end
+                    width: -webkit-fill-available
+                    align-self: start
+
+
+
 
 
 
