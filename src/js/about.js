@@ -1,22 +1,20 @@
 import React from "react";
 
+import background from "../img/who_photo.png"
 
-const About = () => {
+
+function About () {
     return(
         <div className="main__about">
-            <p>About us!!!</p>
+            <div className="main__about__block1">
+                <img src={background} alt="logo" className="main__about__block1__background" />
+            <h2 className="main__about__block1__h2">кто мы такие ?</h2>
+            </div>
+            
         </div>
     );
 }
 
-// class About extends React.Component{
-//     render(){
-//         return(
-//             <div className="main__about">
-//                 <p>About us!!!</p>
-//             </div>
-//         );
-//     }
-// }
+
 
 export default About;

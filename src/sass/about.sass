@@ -3,6 +3,29 @@
 
 .main
     &__about
-        height: 100vh
         width: 100%
+        min-height: calc( 100vh - 80px )
+        max-height: calc( 100vh - 80px )
+        // overflow: hidden
+        position: relative
         background-color: #90b3ae
+        &__block1
+            position: relative
+            display: flex
+            justify-content: center
+            align-items: center
+            &__background
+                width: 100%
+                min-height: calc( 100vh - 80px )
+                max-height: calc( 100vh - 80px )
+            &__h2
+                font-family: 'decorative'
+                font-size: 70px
+                color: #fff
+                position: absolute
+                text-align: center
+                // display: flex
+                // justify-content: space-around
+                // align-items: center
+                // max-height: 500px
+                // min-height: 400px
