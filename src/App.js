@@ -1,6 +1,10 @@
 import React from "react";
+import { BrowserRouter as Router } from "react-router-dom";
+
 import Header from "./js/header";
-import Home from "./js/home";
+import Main from "./js/main";
+// import Home from "./js/home";
+// import About from "./js/about";
 import Footer from "./js/footer";
 
 class App extends React.Component{
@@ -8,7 +12,9 @@ class App extends React.Component{
     return (
       <div className="App">
         <Header/>
-        <Home/>
+        <Main/>
+        {/* <Home/> */}
+        {/* <About/> */}
         <Footer/>
       </div>
     );

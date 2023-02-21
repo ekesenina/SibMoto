@@ -1,0 +1,38 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/MullerRegular.otf);
+}
+
+@font-face {
+  font-family: 'mainBold';
+  src: url(../fonts/MullerBold.otf);
+}
+
+@font-face {
+  font-family: 'mainExtraBold';
+  src: url(../fonts/MullerExtraBold.otf);
+}
+
+@font-face {
+  font-family: 'mainLight';
+  src: url(../fonts/MullerLight.otf);
+}
+
+@font-face {
+  font-family: 'mainUltraLight';
+  src: url(../fonts/MullerUltraLight.otf);
+}
+
+@font-face {
+  font-family: 'decorative';
+  src: url(../fonts/IntroRustG-Base.otf);
+}
+
+/* line 5, ../../Projects/SibMoto/src/sass/about.sass */
+.main__about {
+  height: 100vh;
+  width: 100%;
+  background-color: #90b3ae;
+}
+
+/*# sourceMappingURL=about.css.map */

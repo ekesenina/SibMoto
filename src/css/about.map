@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "about.css",
+	"sources": [
+		"../sass/about.sass",
+		"../sass/variables.sass"
+	],
+	"sourcesContent": [
+		"@import 'variables';\n\n\n.main {\n    &__about {\n        height: 100vh;\n        width: 100%;\n        background-color: #90b3ae; } }\n",
+		"@font-face {\n    font-family: 'main';\n    src: url(../fonts/MullerRegular.otf); }\n\n@font-face {\n    font-family: 'mainBold';\n    src: url(../fonts/MullerBold.otf); }\n\n@font-face {\n    font-family: 'mainExtraBold';\n    src: url(../fonts/MullerExtraBold.otf); }\n\n@font-face {\n    font-family: 'mainLight';\n    src: url(../fonts/MullerLight.otf); }\n\n@font-face {\n    font-family: 'mainUltraLight';\n    src: url(../fonts/MullerUltraLight.otf); }\n\n@font-face {\n    font-family: 'decorative';\n    src: url(../fonts/IntroRustG-Base.otf); }\n\n\n$main-color: #FFCB03;\n$secondary-color: #232020;\n\n@mixin transition {\n    transition: all;\n    transition-duration: 0.5s; }\n\n\n@mixin button {\n    height: 46px;\n    width: fit-content;\n    padding: 0px 30px;\n    background-color: $main-color;\n    color: #000000;\n    border-radius: 30px;\n    border: none;\n    font-family: 'main';\n    text-transform: uppercase;\n    @include transition; }\n\n\n@mixin button__hover {\n    background-color: #C17D17;\n    color: #FFFFFF;\n    box-shadow: inset 2px 4px 6px rgba(0, 0, 0, 0.25);\n    @include transition; }\n\n@mixin underline {\n    border-bottom: 3px solid $main-color;\n    width: 80px;\n    padding-top: 16px; }\n\n\n\n"
+	],
+	"names": [],
+	"mappings": "ACAA,UAAU;EACN,WAAW,EAAE,MAAM;EACnB,GAAG,EAAE,+BAA+B;;;AAExC,UAAU;EACN,WAAW,EAAE,UAAU;EACvB,GAAG,EAAE,4BAA4B;;;AAErC,UAAU;EACN,WAAW,EAAE,eAAe;EAC5B,GAAG,EAAE,iCAAiC;;;AAE1C,UAAU;EACN,WAAW,EAAE,WAAW;EACxB,GAAG,EAAE,6BAA6B;;;AAEtC,UAAU;EACN,WAAW,EAAE,gBAAgB;EAC7B,GAAG,EAAE,kCAAkC;;;AAE3C,UAAU;EACN,WAAW,EAAE,YAAY;EACzB,GAAG,EAAE,iCAAiC;;;;ADlBrC,AAAD,YAAQ,CAAC;EACL,MAAM,EAAE,KAAK;EACb,KAAK,EAAE,IAAI;EACX,gBAAgB,EAAE,OAAO;CAAG"
+}
