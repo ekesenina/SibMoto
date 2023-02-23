@@ -31,10 +31,11 @@
 /* line 5, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about {
   width: 100%;
-  min-height: calc( 100vh - 80px);
-  max-height: calc( 100vh - 80px);
   position: relative;
-  background-color: #90b3ae;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 /* line 12, ../../Projects/SibMoto/src/sass/about.sass */
@@ -43,22 +44,61 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-/* line 17, ../../Projects/SibMoto/src/sass/about.sass */
-.main__about__block1__background {
-  width: 100%;
+  background: url("../img/who_photo.png") no-repeat center;
+  background-size: cover;
+  max-width: 100%;
+  min-width: 100%;
   min-height: calc( 100vh - 80px);
   max-height: calc( 100vh - 80px);
 }
 
-/* line 21, ../../Projects/SibMoto/src/sass/about.sass */
+/* line 28, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block1__h2 {
   font-family: 'decorative';
   font-size: 70px;
   color: #fff;
   position: absolute;
   text-align: center;
+}
+
+/* line 39, ../../Projects/SibMoto/src/sass/about.sass */
+.main__about__block2 {
+  min-height: calc( 100vh - 80px);
+  max-height: calc( 100vh - 80px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  max-width: calc( 100vw - 100px);
+}
+
+/* line 47, ../../Projects/SibMoto/src/sass/about.sass */
+.main__about__block2__text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* line 51, ../../Projects/SibMoto/src/sass/about.sass */
+.main__about__block2__text__h2 {
+  font-family: 'mainBold';
+  font-size: 48px;
+  text-transform: uppercase;
+}
+
+/* line 55, ../../Projects/SibMoto/src/sass/about.sass */
+.main__about__block2__text__h2__underline {
+  border-bottom: 3px solid #FFCB03;
+  width: 80px;
+  padding-top: 16px;
+}
+
+/* line 57, ../../Projects/SibMoto/src/sass/about.sass */
+.main__about__block2__text__p {
+  font-family: 'mainLight';
+  font-size: 24px;
+  line-height: 120%;
+  max-width: 410px;
 }
 
 /*# sourceMappingURL=about.css.map */

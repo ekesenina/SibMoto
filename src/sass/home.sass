@@ -164,17 +164,21 @@
                     &:hover
                         @include button__hover
     &__technic
-        height: 100vh
-        min-height: 100vh
+        max-height: calc( 100vh - 20px )
+        min-height: calc( 100vh - 20px )
         width: 100%
         min-width: 100%
-        display: block
+        display: flex
+        align-items: center
+        justify-content: center
         max-width: calc( 100vw - 100px )
         &__content
-            display: grid
-            grid-template-columns: 40% 60%
-            margin: 0px 100px
+            // display: grid
+            // grid-template-columns: 40% 60%
+            margin: 0px 50px
             max-height: 100vh
+            display: flex
+            justify-content: space-around
             &__text
                 display: flex
                 flex-direction: column

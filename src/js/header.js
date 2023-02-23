@@ -15,7 +15,7 @@ class Header extends React.Component {
         <header className="header">
             <img src={logo} alt="logo" className="header__logo" />
             <div className="header__nav">
-                <NavLink to="/" exact activeClassName="is_active" activeStyle={{color: '#FFCB03'}} className={"header__nav__a"}>Главная</NavLink>
+                <NavLink to="/" exact activeClassName="is_active" className={"header__nav__a"}>Главная</NavLink>
                 <NavLink to="/about" activeClassName="is_active" className={"header__nav__a"}>О нас</NavLink>
                 <NavLink to="/services" activeClassName="is_active" className={"header__nav__a"}>Об услугах</NavLink>
                 <NavLink to="/catalog" activeClassName="is_active" className={"header__nav__a"}>Каталог</NavLink>
