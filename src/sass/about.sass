@@ -41,9 +41,10 @@
             max-height: calc( 100vh - 80px )
             position: relative
             display: flex
-            justify-content: center
+            justify-content: space-around
             align-items: center
             max-width: calc( 100vw - 100px )
+            min-width: calc( 100vw - 100px)
             &__text
                 display: flex
                 flex-direction: column
@@ -52,6 +53,7 @@
                     font-family: 'mainBold'
                     font-size: 48px
                     text-transform: uppercase
+                    margin-bottom: 40px
                     &__underline
                         @include underline
                 &__p
@@ -59,3 +61,30 @@
                     font-size: 24px
                     line-height: 120%
                     max-width: 410px
+        &__block3
+            min-height: calc( 100vh - 80px )
+            max-height: calc( 100vh - 80px )
+            position: relative
+            display: flex
+            justify-content: center
+            align-items: center
+            max-width: calc( 100vw - 100px )
+            min-width: calc( 100vw - 100px)
+            &__text
+                display: flex
+                min-width: -webkit-fill-available
+                justify-content: space-around
+                &__column
+                    max-width: 450px
+                    &__h2
+                        font-family: 'mainBold'
+                        font-size: 36px
+                        margin-bottom: 35px
+                        &__underline
+                            @include underline
+                    &__p
+                        font-family: 'mainLight'
+                        font-size: 18px
+                        line-height: 150%
+                        &:first-child
+                            margin-bottom: 20px
