@@ -1,0 +1,25 @@
+@import 'variables'
+
+.main
+    &__catalog
+        width: 100%
+        position: relative
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-items: center
+        &__block1
+            background:  url("../img/catalog_photo.png") no-repeat center
+            @include photo_block
+            &__h2
+                @include photo_block_h2
+                top: 150px
+        &__block2
+            position: relative
+            display: flex
+            flex-direction: column
+            padding: 30px 0px
+            justify-content: space-between
+            align-items: center
+            max-width: calc( 100vw - 300px )
+            min-width: calc( 100vw - 300px)

@@ -28,12 +28,7 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
-/* line 3, ../../Projects/SibMoto/src/sass/header.sass */
-.is_active {
-  color: #FFCB03;
-}
-
-/* line 5, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 4, ../../Projects/SibMoto/src/sass/header.sass */
 .header {
   height: 80px;
   background-color: #232020;
@@ -46,20 +41,25 @@
   z-index: 1;
 }
 
-/* line 15, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 14, ../../Projects/SibMoto/src/sass/header.sass */
 .header__logo {
   padding: 15px 35px;
   max-height: 60px;
 }
 
-/* line 18, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 17, ../../Projects/SibMoto/src/sass/header.sass */
 .header__nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
 
-/* line 22, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 21, ../../Projects/SibMoto/src/sass/header.sass */
+.header__nav .active {
+  color: #FFCB03;
+}
+
+/* line 23, ../../Projects/SibMoto/src/sass/header.sass */
 .header__nav__a {
   text-decoration: none;
   font-family: 'main';
@@ -69,12 +69,12 @@
   margin-right: 32px;
 }
 
-/* line 29, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 30, ../../Projects/SibMoto/src/sass/header.sass */
 .header__nav__a:last-child {
   padding-right: 36px;
 }
 
-/* line 31, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 32, ../../Projects/SibMoto/src/sass/header.sass */
 .header__nav__a:hover {
   color: #FFCB03;
   text-decoration: none;
@@ -83,7 +83,7 @@
   padding-top: 29px;
 }
 
-/* line 37, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 38, ../../Projects/SibMoto/src/sass/header.sass */
 .header__nav__button {
   height: 46px;
   width: fit-content;
@@ -99,7 +99,7 @@
   margin-right: 35px;
 }
 
-/* line 40, ../../Projects/SibMoto/src/sass/header.sass */
+/* line 41, ../../Projects/SibMoto/src/sass/header.sass */
 .header__nav__button:hover {
   background-color: #C17D17;
   color: #FFFFFF;
@@ -109,7 +109,7 @@
 }
 
 @media screen and (max-width: 1168px) {
-  /* line 48, ../../Projects/SibMoto/src/sass/header.sass */
+  /* line 49, ../../Projects/SibMoto/src/sass/header.sass */
   .header__nav__a {
     font-size: 0.65rem;
   }
