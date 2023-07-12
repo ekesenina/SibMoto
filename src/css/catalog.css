@@ -28,7 +28,6 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
-/* line 4, ../../Projects/SibMoto/src/sass/catalog.sass */
 .main__catalog {
   width: 100%;
   position: relative;
@@ -38,7 +37,6 @@
   align-items: center;
 }
 
-/* line 11, ../../Projects/SibMoto/src/sass/catalog.sass */
 .main__catalog__block1 {
   background: url("../img/catalog_photo.png") no-repeat center;
   position: relative;
@@ -52,7 +50,6 @@
   max-height: calc( 100vh - 80px);
 }
 
-/* line 14, ../../Projects/SibMoto/src/sass/catalog.sass */
 .main__catalog__block1__h2 {
   font-family: 'decorative';
   font-size: 70px;
@@ -62,7 +59,6 @@
   top: 150px;
 }
 
-/* line 17, ../../Projects/SibMoto/src/sass/catalog.sass */
 .main__catalog__block2 {
   position: relative;
   display: flex;
@@ -73,5 +69,3 @@
   max-width: calc( 100vw - 300px);
   min-width: calc( 100vw - 300px);
 }
-
-/*# sourceMappingURL=catalog.css.map */

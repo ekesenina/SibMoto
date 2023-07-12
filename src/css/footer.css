@@ -28,7 +28,6 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
-/* line 3, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer {
   height: 150px;
   background-color: #232020;
@@ -37,7 +36,6 @@
   justify-content: center;
 }
 
-/* line 9, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts {
   width: 100vw;
   height: -webkit-fill-available;
@@ -50,54 +48,43 @@
   padding: 10px 50px;
 }
 
-/* line 19, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress, .footer__contacts__phones {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* line 24, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item, .footer__contacts__phones__item {
   margin-bottom: 10px;
 }
 
-/* line 26, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__bold, .footer__contacts__phones__item__bold {
   font-family: "mainBold";
 }
 
-/* line 30, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__copyright {
   margin-top: 20px;
   font-size: 16px;
 }
 
-/* line 33, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__a {
   text-decoration: none;
   color: #bebebe;
 }
 
-/* line 36, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__a:hover {
   color: #FFCB03;
 }
 
-/* line 39, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__phones__item {
   display: flex;
 }
 
-/* line 41, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__phones__item__a {
   text-decoration: none;
   color: #bebebe;
 }
 
-/* line 44, ../../Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__phones__item__a:hover {
   color: #FFCB03;
 }
-
-/*# sourceMappingURL=footer.css.map */

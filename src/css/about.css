@@ -28,7 +28,6 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
-/* line 5, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about {
   width: 100%;
   position: relative;
@@ -38,7 +37,6 @@
   align-items: center;
 }
 
-/* line 12, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block1 {
   background: url("../img/who_photo.png") no-repeat center;
   position: relative;
@@ -52,7 +50,6 @@
   max-height: calc( 100vh - 80px);
 }
 
-/* line 20, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block1__h2 {
   font-family: 'decorative';
   font-size: 70px;
@@ -61,7 +58,6 @@
   text-align: center;
 }
 
-/* line 27, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block2 {
   min-height: calc( 100vh - 80px);
   max-height: calc( 100vh - 80px);
@@ -74,14 +70,12 @@
   min-width: calc( 100vw - 100px);
 }
 
-/* line 37, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block2__text {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* line 41, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block2__text__h2 {
   font-family: 'mainBold';
   font-size: 48px;
@@ -89,14 +83,12 @@
   margin-bottom: 40px;
 }
 
-/* line 46, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block2__text__h2__underline {
   border-bottom: 3px solid #FFCB03;
   width: 80px;
   padding-top: 16px;
 }
 
-/* line 48, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block2__text__p {
   font-family: 'mainLight';
   font-size: 24px;
@@ -104,7 +96,6 @@
   max-width: 410px;
 }
 
-/* line 53, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3 {
   min-height: calc( 100vh - 80px);
   max-height: calc( 100vh - 80px);
@@ -116,45 +107,38 @@
   min-width: calc( 100vw - 100px);
 }
 
-/* line 62, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3__text {
   display: flex;
   min-width: -webkit-fill-available;
   justify-content: space-around;
 }
 
-/* line 66, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3__text__column {
   max-width: 450px;
 }
 
-/* line 68, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3__text__column__h2 {
   font-family: 'mainBold';
   font-size: 36px;
   margin-bottom: 35px;
 }
 
-/* line 72, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3__text__column__h2__underline {
   border-bottom: 3px solid #FFCB03;
   width: 80px;
   padding-top: 16px;
 }
 
-/* line 74, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3__text__column__p {
   font-family: 'mainLight';
   font-size: 20px;
   line-height: 150%;
 }
 
-/* line 78, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block3__text__column__p:first-child {
   margin-bottom: 20px;
 }
 
-/* line 80, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block4 {
   position: relative;
   display: flex;
@@ -165,31 +149,25 @@
   margin: 100px 0px;
 }
 
-/* line 90, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block4__text {
   max-width: 1000px;
   margin-left: 50px;
 }
 
-/* line 93, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block4__text__h2 {
   font-family: 'mainBold';
   font-size: 36px;
   margin-bottom: 35px;
 }
 
-/* line 97, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block4__text__h2__underline {
   border-bottom: 3px solid #FFCB03;
   width: 80px;
   padding-top: 16px;
 }
 
-/* line 99, ../../Projects/SibMoto/src/sass/about.sass */
 .main__about__block4__text__p {
   font-family: 'mainLight';
   font-size: 20px;
   line-height: 150%;
 }
-
-/*# sourceMappingURL=about.css.map */

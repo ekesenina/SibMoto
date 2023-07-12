@@ -28,14 +28,12 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
-/* line 4, ../../Projects/SibMoto/src/sass/slider.sass */
 .App {
   width: 100%;
   box-sizing: border-box;
   font-family: "Roboto";
 }
 
-/* line 9, ../../Projects/SibMoto/src/sass/slider.sass */
 .slider {
   width: 100vw;
   min-height: calc( 100vh - 100px);
@@ -43,7 +41,6 @@
   position: relative;
 }
 
-/* line 15, ../../Projects/SibMoto/src/sass/slider.sass */
 .slider .wrapper {
   min-height: calc( 100vh - 100px);
   -webkit-transition: 0.5s all;
@@ -51,7 +48,6 @@
   will-change: transform;
 }
 
-/* line 22, ../../Projects/SibMoto/src/sass/slider.sass */
 .slider .each-slide {
   width: min-content;
   min-height: calc( 100vh - 100px);
@@ -63,5 +59,3 @@
   z-index: 1;
   background-color: transparent;
 }
-
-/*# sourceMappingURL=slider.css.map */
