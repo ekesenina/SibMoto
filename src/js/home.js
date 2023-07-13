@@ -8,8 +8,13 @@ import Technic3 from '../img/technic2.png';
 import Technic2 from '../img/technic3.png';
 import Technic4 from '../img/technic4.png';
 import React from "react";
+import { NavLink } from "react-router-dom";
+import ScrollToTop from "..";
+
+
 
 function Home () {
+    ScrollToTop()
     return (
         <div>
             <div className="home">
@@ -20,7 +25,7 @@ function Home () {
                             <div className="home__slider__text__h2__underline"></div>
                         </div>
                         <h1 className="home__slider__text__h1">КУПИ НОВЫЙ ВЕЗДЕХОД</h1>
-                        <button className="home__slider__text__button">перейти в каталог</button>
+                        <NavLink to="/catalog"><button className="home__slider__text__button">перейти в каталог</button></NavLink>
                     </div>
                 </div>
                 <div className="home__sales">
@@ -32,13 +37,13 @@ function Home () {
                             <img src={Sale1} alt="img" className="home__sales__content__sale1__img" />
                             <h3 className="home__sales__content__sale1__h3">Выгодные предложения!</h3>
                             <p className="home__sales__content__sale1__p">Выгода до 50000 руб. на STELS VIKING и STELS ЕРМАК до 30 июня! Количество техники ограничено.</p>
-                            <button className="home__sales__content__sale1__button">перейти в каталог</button>
+                            <NavLink to="/catalog"><button className="home__sales__content__sale1__button">перейти в каталог</button></NavLink>
                         </div>
                         <div className="home__sales__content__sale2">
                             <img src={Sale2} alt="img" className="home__sales__content__sale2__img" />
                             <h3 className="home__sales__content__sale1__h3">Выгодные предложения!</h3>
                             <p className="home__sales__content__sale1__p">Выгода до 50000 руб. на STELS VIKING и STELS ЕРМАК до 30 июня! Количество техники ограничено.</p>
-                            <button className="home__sales__content__sale1__button">перейти в каталог</button>
+                            <NavLink to="/catalog"><button className="home__sales__content__sale1__button">перейти в каталог</button></NavLink>
                         </div>
                     </div>
                     <div className="home__sales__credit">
@@ -59,7 +64,7 @@ function Home () {
                                     <div className="home__stels__content__text__h2__underline"></div>
                                 </div>
                                 <p className="home__stels__content__text__p">Российский бренд, принадлежащий холдингу «Веломоторс», производит квадроциклы, вездеходы и снегоходы с 2009 года. Убедитесь в качестве одной из лучших компаний в стране по производству мототехники!</p>
-                                <button className="home__stels__content__text__button">перейти в каталог</button>
+                                <NavLink to="/catalog"><button className="home__stels__content__text__button">перейти в каталог</button></NavLink>
                             </div>
                         </div>
                     </div>
@@ -71,7 +76,7 @@ function Home () {
                                 </div>
                                 <div className="home__technic__content__text__paragraph__p">
                                     <p className="home__technic__content__text__paragraph__p">Прекрасная мототехника для любой погоды и местности.</p>
-                                    <button className="home__technic__content__text__paragraph__p__button">перейти в каталог</button>
+                                    <NavLink to="/catalog"><button className="home__technic__content__text__paragraph__p__button">перейти в каталог</button></NavLink>
                                 </div>
                             </div>
                             <div className="home__technic__content__img">

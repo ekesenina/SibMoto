@@ -1,9 +1,10 @@
 import React from "react";
-
+import ScrollToTop from "..";
 import aim from "../img/aim.png"
 
 
 function About () {
+    ScrollToTop()
     return(
         <div className="main__about">
             <div className="main__about__block1">

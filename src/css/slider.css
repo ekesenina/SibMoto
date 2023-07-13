@@ -28,15 +28,36 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
+/* line 78, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* line 81, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-track {
+  background-color: #232020;
+}
+
+/* line 84, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-thumb {
+  background-color: #FFCB03;
+  border-radius: 10px;
+}
+
+/* line 3, ../../home/kate/Projects/SibMoto/src/sass/slider.sass */
 .slider {
   width: fit-content;
   height: fit-content;
 }
 
+/* line 7, ../../home/kate/Projects/SibMoto/src/sass/slider.sass */
 .slider__slide__img {
   width: -webkit-fill-available;
 }
 
+/* line 10, ../../home/kate/Projects/SibMoto/src/sass/slider.sass */
 .swiper {
   z-index: 0;
 }
+
+/*# sourceMappingURL=slider.css.map */

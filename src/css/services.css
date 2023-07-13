@@ -28,6 +28,23 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
+/* line 78, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* line 81, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-track {
+  background-color: #232020;
+}
+
+/* line 84, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-thumb {
+  background-color: #FFCB03;
+  border-radius: 10px;
+}
+
+/* line 4, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services {
   width: 100%;
   position: relative;
@@ -37,6 +54,7 @@
   align-items: center;
 }
 
+/* line 11, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block1 {
   background: url("../img/services_photo.png") no-repeat center;
   position: relative;
@@ -50,6 +68,7 @@
   max-height: calc( 100vh - 80px);
 }
 
+/* line 14, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block1__h2 {
   font-family: 'decorative';
   font-size: 70px;
@@ -58,6 +77,7 @@
   text-align: center;
 }
 
+/* line 16, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2 {
   position: relative;
   display: flex;
@@ -69,6 +89,7 @@
   min-width: calc( 100vw - 300px);
 }
 
+/* line 27, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__text {
   display: flex;
   flex-direction: column;
@@ -78,6 +99,7 @@
   margin-bottom: 30px;
 }
 
+/* line 34, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__text__h2 {
   font-family: 'mainBold';
   font-size: 40px;
@@ -89,17 +111,20 @@
   align-items: center;
 }
 
+/* line 43, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__text__h2__underline {
   border-bottom: 3px solid #FFCB03;
   width: 80px;
   padding-top: 16px;
 }
 
+/* line 45, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__text__p {
   font-family: 'mainLight';
   font-size: 24px;
 }
 
+/* line 48, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__cards {
   position: relative;
   display: flex;
@@ -108,6 +133,7 @@
   max-width: calc(100vw - 600px);
 }
 
+/* line 54, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__cards__card {
   display: flex;
   flex-direction: column;
@@ -118,15 +144,18 @@
   margin-bottom: 65px;
 }
 
+/* line 62, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__cards__card__photo {
   margin-bottom: 20px;
 }
 
+/* line 65, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__cards__card__text__h3 {
   font-family: 'mainBold';
   font-size: 36px;
 }
 
+/* line 68, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block2__cards__card__text__p {
   font-family: 'mainLight';
   font-size: 20px;
@@ -134,6 +163,7 @@
   color: rgba(0, 0, 0, 0.7);
 }
 
+/* line 73, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3 {
   background: url("../img/waves.png") no-repeat center;
   position: relative;
@@ -149,6 +179,7 @@
   max-height: calc( 100vh - 180px);
 }
 
+/* line 78, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3__content {
   display: flex;
   justify-content: space-evenly;
@@ -157,6 +188,7 @@
   min-width: 100%;
 }
 
+/* line 84, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3__content__text {
   display: flex;
   justify-content: center;
@@ -167,6 +199,7 @@
   margin: 0px 20px;
 }
 
+/* line 92, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3__content__text__h2 {
   font-family: 'mainBold';
   font-size: 30px;
@@ -176,12 +209,14 @@
   margin-bottom: 45px;
 }
 
+/* line 99, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3__content__text__h2__underline {
   border-bottom: 3px solid #FFCB03;
   width: 80px;
   padding-top: 16px;
 }
 
+/* line 101, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3__content__text__p {
   font-family: 'mainLight';
   font-size: 18px;
@@ -190,8 +225,11 @@
   max-width: 440px;
 }
 
+/* line 108, ../../home/kate/Projects/SibMoto/src/sass/services.sass */
 .main__services__block3__content__text__ul__li {
   font-family: 'main';
   font-size: 18px;
   line-height: 150%;
 }
+
+/*# sourceMappingURL=services.css.map */

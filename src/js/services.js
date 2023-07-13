@@ -1,4 +1,6 @@
 import React from "react";
+import ScrollToTop from "..";
+
 
 import card1 from "../img/services_card1.png"
 import card2 from "../img/services_card2.png"
@@ -7,6 +9,7 @@ import card4 from "../img/services_card4.png"
 import card5 from "../img/services_card5.png"
 
 function Services (){
+    ScrollToTop()
     return(
         <div className="main__services">
             <div className="main__services__block1">

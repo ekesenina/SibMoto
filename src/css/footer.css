@@ -28,6 +28,23 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
+/* line 78, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* line 81, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-track {
+  background-color: #232020;
+}
+
+/* line 84, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-thumb {
+  background-color: #FFCB03;
+  border-radius: 10px;
+}
+
+/* line 3, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer {
   height: 150px;
   background-color: #232020;
@@ -36,6 +53,7 @@
   justify-content: center;
 }
 
+/* line 9, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts {
   width: 100vw;
   height: -webkit-fill-available;
@@ -48,43 +66,54 @@
   padding: 10px 50px;
 }
 
+/* line 19, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress, .footer__contacts__phones {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
+/* line 24, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item, .footer__contacts__phones__item {
   margin-bottom: 10px;
 }
 
+/* line 26, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__bold, .footer__contacts__phones__item__bold {
   font-family: "mainBold";
 }
 
+/* line 30, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__copyright {
   margin-top: 20px;
   font-size: 16px;
 }
 
+/* line 33, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__a {
   text-decoration: none;
   color: #bebebe;
 }
 
+/* line 36, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__adress__item__a:hover {
   color: #FFCB03;
 }
 
+/* line 39, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__phones__item {
   display: flex;
 }
 
+/* line 41, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__phones__item__a {
   text-decoration: none;
   color: #bebebe;
 }
 
+/* line 44, ../../home/kate/Projects/SibMoto/src/sass/footer.sass */
 .footer__contacts__phones__item__a:hover {
   color: #FFCB03;
 }
+
+/*# sourceMappingURL=footer.css.map */

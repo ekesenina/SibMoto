@@ -28,11 +28,30 @@
   src: url(../fonts/IntroRustG-Base.otf);
 }
 
+/* line 78, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* line 81, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-track {
+  background-color: #232020;
+}
+
+/* line 84, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-thumb {
+  background-color: #FFCB03;
+  border-radius: 10px;
+}
+
+/* line 4, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .sliderCatalog {
   max-width: calc( 100vw - 350px);
   height: fit-content;
+  margin: 50px 0px 40px 0px;
 }
 
+/* line 8, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .sliderCatalog__slide {
   display: flex;
   flex-direction: column;
@@ -40,33 +59,44 @@
   justify-content: center;
 }
 
+/* line 13, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .sliderCatalog__slide__name {
   color: rgba(0, 0, 0, 0.5);
   text-align: center;
+  font-family: 'main';
+  font-weight: 300;
   font-size: 18px;
+  margin-top: 20px;
 }
 
+/* line 21, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .swiper-button-prev {
   content: url(../img/arrow_left.svg);
   left: 0px;
 }
 
+/* line 24, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .swiper-button-next {
   content: url(../img/arrow_right.svg);
   right: 0px;
 }
 
+/* line 28, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .swiper-pagination {
   position: relative !important;
   margin-top: 20px;
 }
 
+/* line 32, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .swiper-pagination-bullet {
   background-color: rgba(35, 32, 32, 0.3);
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
 
+/* line 35, ../../home/kate/Projects/SibMoto/src/sass/sliderCatalog.sass */
 .swiper-pagination-bullet-active {
   background-color: #FFCB03;
   box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.25) inset;
 }
+
+/*# sourceMappingURL=sliderCatalog.css.map */
