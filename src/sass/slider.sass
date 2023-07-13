@@ -1,34 +1,45 @@
 @import 'variables'
 
-
-.App 
-  width: 100%
-  box-sizing: border-box
-  font-family: "Roboto"
-
-.slider 
-  width: 100vw
-  min-height: calc( 100vh - 100px )
-  overflow: hidden
-  position: relative
-
-.slider .wrapper 
-  min-height: calc( 100vh - 100px )
-  -webkit-transition: 0.5s all 
-  transition: 0.5s all 
-  will-change: transform
-  // @include transition
-
-.slider .each-slide 
-  width: min-content
-  min-height: calc( 100vh - 100px )
+.slider
+  width: fit-content
   height: fit-content
-  float: left
-  text-align: center
-  background-size: cover
-  background-position: center center
-  z-index: 1
-  background-color: transparent
+  &__slide
+    &__img
+      width: -webkit-fill-available
+
+.swiper
+  z-index: 0
+
+
+
+// .App 
+//   width: 100%
+//   box-sizing: border-box
+//   font-family: "Roboto"
+
+// .slider 
+//   width: 100vw
+//   min-height: calc( 100vh - 100px )
+//   overflow: hidden
+//   position: relative
+
+// .slider .wrapper 
+//   min-height: calc( 100vh - 100px )
+//   -webkit-transition: 0.5s all 
+//   transition: 0.5s all 
+//   will-change: transform
+//   // @include transition
+
+// .slider .each-slide 
+//   width: min-content
+//   min-height: calc( 100vh - 100px )
+//   height: fit-content
+//   float: left
+//   text-align: center
+//   background-size: cover
+//   background-position: center center
+//   z-index: 1
+//   background-color: transparent
   
   
 
