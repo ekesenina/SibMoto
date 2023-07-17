@@ -1,0 +1,92 @@
+@font-face {
+  font-family: 'main';
+  src: url(../fonts/MullerRegular.otf);
+}
+
+@font-face {
+  font-family: 'mainBold';
+  src: url(../fonts/MullerBold.otf);
+}
+
+@font-face {
+  font-family: 'mainExtraBold';
+  src: url(../fonts/MullerExtraBold.otf);
+}
+
+@font-face {
+  font-family: 'mainLight';
+  src: url(../fonts/MullerLight.otf);
+}
+
+@font-face {
+  font-family: 'mainUltraLight';
+  src: url(../fonts/MullerUltraLight.otf);
+}
+
+@font-face {
+  font-family: 'decorative';
+  src: url(../fonts/IntroRustG-Base.otf);
+}
+
+/* line 78, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* line 81, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-track {
+  background-color: #232020;
+}
+
+/* line 84, ../../home/kate/Projects/SibMoto/src/sass/variables.sass */
+::-webkit-scrollbar-thumb {
+  background-color: #FFCB03;
+  border-radius: 10px;
+}
+
+/* line 4, ../../home/kate/Projects/SibMoto/src/sass/itemCard.sass */
+.main__item {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  min-height: calc( 100vh - 230px);
+}
+
+/* line 10, ../../home/kate/Projects/SibMoto/src/sass/itemCard.sass */
+.main__item__card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* line 14, ../../home/kate/Projects/SibMoto/src/sass/itemCard.sass */
+.main__item__card__name {
+  align-self: flex-start;
+  font-family: 'main';
+  font-size: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #232020;
+}
+
+/* line 21, ../../home/kate/Projects/SibMoto/src/sass/itemCard.sass */
+.main__item__card__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+/* line 25, ../../home/kate/Projects/SibMoto/src/sass/itemCard.sass */
+.main__item__card__container__img {
+  width: 30vw;
+}
+
+/* line 28, ../../home/kate/Projects/SibMoto/src/sass/itemCard.sass */
+.main__item__card__container__features {
+  max-width: 50vw;
+  min-width: 40vw;
+  background-color: #c2bebe;
+}
+
+/*# sourceMappingURL=itemCard.css.map */

@@ -13,8 +13,6 @@ class App extends React.Component{
       <div className="App">
         <Header/>
         <Main/>
-        {/* <Home/> */}
-        {/* <About/> */}
         <Footer/>
       </div>
     );

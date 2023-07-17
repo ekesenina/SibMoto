@@ -55,42 +55,52 @@ export const stockData = [
         price: 120.000
     },
     {
+        id: 4,
         name: 'GUEPARD-650-PE',
         img: img4
     },
     {
+        id: 5,
         name: 'GUEPARD-650-ST',
         img: img5
     },
     {
+        id: 6,
         name: 'GUEPARD-650-TE',
         img: img6
     },
     {
+        id: 7,
         name: '800-GUEPARD-CARGO',
         img: img7
     },
     {
+        id: 8,
         name: 'GUEPARD-800-EX',
         img: img8
     },
     {
+        id: 9,
         name: 'GUEPARD-800-LT',
         img: img9
     },
     {
+        id: 10,
         name: 'GUEPARD-800-PE',
         img: img10
     },
     {
+        id: 11,
         name: 'GUEPARD-800-ST',
         img: img11
     },
     {
+        id: 12,
         name: 'GUEPARD-650-TE',
         img: img12
     },
     {
+        id: 13,
         name: '850-GUEPARD-CARGO',
         img: img13
     },
