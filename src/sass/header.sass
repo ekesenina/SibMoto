@@ -1,6 +1,6 @@
 @import 'variables'
 
-    
+
 .header
     height: 80px
     background-color: $secondary-color
@@ -47,3 +47,37 @@
         &__nav
             &__a
                 font-size: 0.65rem
+
+
+.header__nav__dropdown 
+  position: relative
+
+  &.active 
+    .header__nav__dropdown-content 
+      display: block
+
+  .header__nav__dropdown-content 
+    display: none
+    position: absolute
+    top: 100%
+    left: 0
+    background-color: #23202088
+    padding: 10px
+    z-index: 1
+    border-radius: 15px
+
+    a 
+      display: block
+      font-family: 'main'
+      padding: 15px 25px
+      text-decoration: none
+      color: $main-color
+      border-radius: 15px
+      &:first-child
+        margin-top: 20px
+
+      &:hover 
+        background-color: $secondary-color
+
+      &.active 
+        background-color: $secondary-color

@@ -131,4 +131,51 @@
   }
 }
 
+/* line 52, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown {
+  position: relative;
+}
+
+/* line 56, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown.active .header__nav__dropdown-content {
+  display: block;
+}
+
+/* line 59, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown .header__nav__dropdown-content {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #23202088;
+  padding: 10px;
+  z-index: 1;
+  border-radius: 15px;
+}
+
+/* line 69, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown .header__nav__dropdown-content a {
+  display: block;
+  font-family: 'main';
+  padding: 15px 25px;
+  text-decoration: none;
+  color: #FFCB03;
+  border-radius: 15px;
+}
+
+/* line 76, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown .header__nav__dropdown-content a:first-child {
+  margin-top: 20px;
+}
+
+/* line 79, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown .header__nav__dropdown-content a:hover {
+  background-color: #232020;
+}
+
+/* line 82, ../../home/kate/Projects/SibMoto/src/sass/header.sass */
+.header__nav__dropdown .header__nav__dropdown-content a.active {
+  background-color: #232020;
+}
+
 /*# sourceMappingURL=header.css.map */
