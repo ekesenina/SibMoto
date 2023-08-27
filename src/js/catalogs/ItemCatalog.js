@@ -1,12 +1,11 @@
 import React from "react";
 import { NavLink, useNavigate } from "react-router-dom";
 import ScrollToTop from "../..";
-import itemImg from "../../img/ATV-500YS-LEOPARD-ST.jpg"
 import { stockData } from "./goods";
 
 
 
-const Test = () => {
+const ItemCatalog = () => {
     ScrollToTop()
 
     const navigate = useNavigate();
@@ -35,4 +34,4 @@ const Test = () => {
 
 
 
-  export default Test;
+  export default ItemCatalog;

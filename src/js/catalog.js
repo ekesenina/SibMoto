@@ -32,7 +32,7 @@ function Catalog (){
                         <p className="main__catalog__block2__category__name__text">Крутые снегоходы от компании Stels.</p>
                     </div>
                     <SliderCatalog/>
-                    <button className="main__catalog__block2__category__button">каталог снегоходов</button>
+                    <NavLink to="/snowmobile"><button className="main__catalog__block2__category__button">каталог снегоходов</button></NavLink>
                 </div>
                 <hr className="main__catalog__block2__underline"/>
                 <div className="main__catalog__block2__category">

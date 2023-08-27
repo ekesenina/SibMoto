@@ -63,7 +63,7 @@ class Header extends React.Component {
             >
               <NavLink to="/catalog" activeClassName="active" className="header__nav__a">Каталог</NavLink>
               <div className="header__nav__dropdown-content">
-                <NavLink to="/catalog/quads" activeClassName="active" className="header__nav__dropdown-content__a">Квадроциклы</NavLink>
+                <NavLink to="/quad" activeClassName="active" className="header__nav__dropdown-content__a">Квадроциклы</NavLink>
                 <NavLink to="/catalog/snowmobiles" activeClassName="active" className="header__nav__dropdown-content__a">Снегоходы</NavLink>
                 <NavLink to="/catalog/boats" activeClassName="active" className="header__nav__dropdown-content__a">Лодки</NavLink>
                 <NavLink to="/catalog/accessories" activeClassName="active" className="header__nav__dropdown-content__a">Аксессуары</NavLink>
